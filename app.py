@@ -14,7 +14,7 @@ def base_url():
 
     return jsonify(response)
     
-@app.route('/firstapi')
+@app.route('/api')
 def url():
     abcd = {
         'response': 'first api!'}
